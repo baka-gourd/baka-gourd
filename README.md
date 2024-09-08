@@ -1,6 +1,6 @@
 # This person was swallowed by a black hole.
 
-Email: nullpinter@nptr.cc
+Email: nullpinter@proton.me
 
 | <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=baka-gourd&layout=compact&theme=dracula" alt="baka-gourd's github stats" /> | <img align="center" src="https://github-readme-stats.vercel.app/api?username=baka-gourd&show_icons=true&theme=dracula" /> |
 | ------------- |  ------------- | 
