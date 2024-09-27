@@ -64,6 +64,9 @@ jobs:
       - name: Col
         uses: lowlighter/metrics@latest
         with:
+          repositories_skipped: |
+            @use.patterns
+            ZWUTA/*
           filename: metrics.col.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
@@ -84,6 +87,7 @@ jobs:
           plugin_habits_languages_threshold: 0%
           plugin_notable: yes
           plugin_notable_from: organization
+          plugin_notable_skipped: ZWUTA/document
           plugin_notable_types: commit
           plugin_rss: no
           plugin_rss_limit: 4
@@ -91,6 +95,9 @@ jobs:
       - name: Col.Dark
         uses: lowlighter/metrics@latest
         with:
+          repositories_skipped: |
+            @use.patterns
+            ZWUTA/*
           filename: metrics.col.dark.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
