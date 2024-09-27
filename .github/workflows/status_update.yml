@@ -86,8 +86,10 @@ jobs:
           plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
           plugin_notable: yes
-          plugin_notable_from: organization
-          plugin_notable_skipped: ZWUTA/document
+          plugin_notable_from: all
+          plugin_notable_skipped: |
+            @use.patterns
+            ZWUTA/*
           plugin_notable_types: commit
           plugin_rss: no
           plugin_rss_limit: 4
@@ -119,7 +121,9 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_types: commit
-          plugin_notable_skipped: ZWUTA/document
+          plugin_notable_skipped: |
+            @use.patterns
+            ZWUTA/*
           plugin_rss: no
           plugin_rss_limit: 4
           plugin_rss_source: https://nptr.cc/rss.xml
