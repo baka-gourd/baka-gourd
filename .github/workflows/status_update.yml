@@ -41,7 +41,7 @@ jobs:
       - name: Personal metrics (additional)
         uses: lowlighter/metrics@master
         with:
-          filename: metrics.additional.svg
+          filename: metrics.additional.png
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: baka-gourd
@@ -59,6 +59,62 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, makefile, qmake, lex, cmake, gnuplot
           plugin_languages_skipped: lowlighter
-
           plugin_topics: yes
           plugin_topics_mode: mastered
+      - name: Col
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.col.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: baka-gourd
+          template: classic
+          base: metadata
+          config_display: regular
+          config_timezone: Asia/Shanghai
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+          plugin_rss: no
+          plugin_rss_limit: 4
+          plugin_rss_source: https://nptr.cc/rss.xml
+      - name: Col.Dark
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.col.dark.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: baka-gourd
+          template: classic
+          base: metadata
+          config_display: regular
+          config_timezone: Asia/Shanghai
+          plugin_followup: yes
+          plugin_followup_archived: yes
+          plugin_followup_sections: repositories
+          plugin_habits: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: 0%
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+          plugin_rss: no
+          plugin_rss_limit: 4
+          plugin_rss_source: https://nptr.cc/rss.xml
+          extras_css: |
+            div.field { color: #d2d7df !important; }
+            h1, h2, h3 { color: #88b1e6 !important; }
