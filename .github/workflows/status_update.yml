@@ -107,11 +107,12 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
+          plugin_habits_languages_limit: 50
           plugin_habits_languages_threshold: 0%
           plugin_notable: yes
-          plugin_notable_from: organization
+          plugin_notable_from: all
           plugin_notable_types: commit
+          plugin_notable_skipped: ZWUTA/document
           plugin_rss: no
           plugin_rss_limit: 4
           plugin_rss_source: https://nptr.cc/rss.xml
