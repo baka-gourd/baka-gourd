@@ -38,13 +38,8 @@
                             <div class="entry">
                                 <span class="value">33</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                15
-                                <div class="bottom">Dec.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 16
+                                <div class="bottom">Dec.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -102,9 +97,14 @@
                                 27
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">34</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 28
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                29
                             </div>
                         </div>
                     </section>
@@ -114,13 +114,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                15
-                                <div class="bottom">Dec.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 16
+                                <div class="bottom">Dec.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -178,9 +173,14 @@
                                 27
                             </div>
                             <div class="entry">
+                                <span class="value">+1</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                28
+                            </div>
+                            <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                28
+                                29
                             </div>
                         </div>
                     </section>
@@ -201,14 +201,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="177.80970299192413" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="177.80970299192413" y="0" width="146.5350246150105" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="324.3447276069346" y="0" width="60.20856301504514" height="8" fill="#3A4E3A"/>
-                    <rect mask="url(#languages-bar)" x="384.5532906219797" y="0" width="30.17423800623567" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="414.72752862821545" y="0" width="21.748034611445515" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="436.47556323966097" y="0" width="12.622787585544632" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="449.0983508252056" y="0" width="6.297222388222712" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="455.39557321342835" y="0" width="4.604426786571683" height="8" fill="#ff5a03"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="176.9439674945396" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="176.9439674945396" y="0" width="148.06125041602814" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="325.00521791056775" y="0" width="59.91541427585061" height="8" fill="#3A4E3A"/>
+                    <rect mask="url(#languages-bar)" x="384.92063218641835" y="0" width="30.0273230262938" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="414.94795521271215" y="0" width="21.642145870591307" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="436.59010108330347" y="0" width="12.561328648800066" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="449.1514297321035" y="0" width="6.266561918829449" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="455.417991650933" y="0" width="4.582008349067041" height="8" fill="#ff5a03"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
