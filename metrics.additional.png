@@ -38,13 +38,8 @@
                             <div class="entry">
                                 <span class="value">34</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                22
-                                <div class="bottom">Jan.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 23
+                                <div class="bottom">Jan.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -103,9 +98,14 @@
                                 3
                             </div>
                             <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">35</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 4
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                5
                             </div>
                         </div>
                     </section>
@@ -115,13 +115,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                22
-                                <div class="bottom">Jan.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 23
+                                <div class="bottom">Jan.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -180,9 +175,14 @@
                                 3
                             </div>
                             <div class="entry">
+                                <span class="value">+1</span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                4
+                            </div>
+                            <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                4
+                                5
                             </div>
                         </div>
                     </section>
@@ -203,14 +203,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="172.72032732816015" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="172.72032732816015" y="0" width="150.9405119842073" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="323.66083931236744" y="0" width="62.66584569733235" height="8" fill="#3A4E3A"/>
-                    <rect mask="url(#languages-bar)" x="386.3266850096998" y="0" width="29.31057291936168" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="415.6372579290615" y="0" width="21.020947829247053" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="436.65820575830855" y="0" width="12.26149060981294" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="448.91969636812144" y="0" width="6.116979522773542" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="455.036675890895" y="0" width="4.963324109104983" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="172.04490310015308" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="172.04490310015308" y="0" width="152.14909159571258" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="324.1939946958657" y="0" width="62.420790404146636" height="8" fill="#3A4E3A"/>
+                    <rect mask="url(#languages-bar)" x="386.6147851000123" y="0" width="29.195953688419095" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="415.8107387884314" y="0" width="20.938745243835257" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="436.74948403226665" y="0" width="12.213541952249232" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="448.9630259845159" y="0" width="6.093059025193342" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="455.05608500970925" y="0" width="4.943914990290774" height="8" fill="#555555"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
