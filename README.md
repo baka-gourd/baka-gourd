@@ -3,4 +3,4 @@
     <img src="banner-dark.svg#gh-dark-mode-only" width="80%"/>
 </p>
 
-Email: nullpinter@proton.me
+Email: me#mail.nptr.cc
