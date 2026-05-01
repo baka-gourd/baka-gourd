@@ -3,4 +3,4 @@
     <img src="banner-dark.svg#gh-dark-mode-only" width="80%"/>
 </p>
 
-Email: me#mail.nptr.cc
+Email: me#nptr.cc
